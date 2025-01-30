@@ -1,4 +1,4 @@
-
+# An if-else statement executes one block of code if a condition is True and another block if the condition is False
 greeting = "Good Morning"
 a = 5
 

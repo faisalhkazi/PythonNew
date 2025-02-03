@@ -1,0 +1,38 @@
+Hello, this is a sample text file.
+It contains multiple lines of text.
+You can use Python to read its content.
+Let's learn how to:
+1. Open a file
+2. Read its content
+3. Close the file properly
+Happy Coding!
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30

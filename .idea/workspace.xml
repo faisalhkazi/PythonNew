@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fcf06ed-695a-4aac-b424-40bed1348746" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StringDemo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/child-inheritance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/loops.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,9 @@
     "Python.FirstDemo.executor": "Run",
     "Python.If-Else-Condition.executor": "Run",
     "Python.List.executor": "Run",
+    "Python.StringDemo.executor": "Run",
     "Python.Tuple.executor": "Run",
+    "Python.child-inheritance.executor": "Run",
     "Python.functions.executor": "Run",
     "Python.loops.executor": "Run",
     "Python.main.executor": "Run",

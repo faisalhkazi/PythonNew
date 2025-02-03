@@ -8,12 +8,12 @@ for i in obj:
     print(" ")
 print("********************************************************************")
 # Sum of first Natural numbers 1+2+3+4+5 = 15
-summation = 0
+sum_val = 0
 for j in range(1,6):  # It will take the range(i,j) of (i,j-1). THis is similar in Java for(i=0,i<5,i++)
-    summation = summation + j
+    sum_val = sum_val + j
     print(j)
 
-print(summation)
+print(sum_val)
 
 print("**********************************************************************")
 

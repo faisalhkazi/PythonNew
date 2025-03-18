@@ -86,6 +86,39 @@ import random
 
 # -------------------------------------------------------------------------------------------------
 # Hard Level Code using for loop
+#
+# alphabet_list = [
+#      'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
+#      'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'
+#  ]
+# numbers_list = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+# symbols_list = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '=', '+', '[', ']', '{', '}']
+#
+# ps_letter = int(input("How many letters would you like to have in your password? \n"))
+# ps_symbol = int(input("How many symbols would you like in your password? \n"))
+# ps_number = int(input("How many numbers would you like in your password? \n"))
+#
+# password_list = []
+# for char in range(0, ps_letter):
+#     password_list.append(random.choice(alphabet_list))
+#
+# for char in range(0, ps_symbol):
+#     password_list.append(random.choice(symbols_list))
+#
+# for char in range(0, ps_number):
+#     password_list.append(random.choice(numbers_list))
+#
+# print(password_list)
+# random.shuffle(password_list)
+# print(password_list)
+#
+# password = ""
+# for char in password_list:
+#     password += char
+#
+# print(f"Your final password is: {password}")
+
+#---------------------------------------------------------------------------------------------------------------------------------------
 
 alphabet_list = [
      'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
@@ -99,6 +132,7 @@ ps_symbol = int(input("How many symbols would you like in your password? \n"))
 ps_number = int(input("How many numbers would you like in your password? \n"))
 
 password_list = []
+
 for char in range(0, ps_letter):
     password_list.append(random.choice(alphabet_list))
 
@@ -113,7 +147,8 @@ random.shuffle(password_list)
 print(password_list)
 
 password = ""
+
 for char in password_list:
     password += char
 
-print(f"Your final password is: {password}")
+print(f"Your password is: {password}")

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fcf06ed-695a-4aac-b424-40bed1348746" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function_input.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hangman-code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hangman-code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,40 +38,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Dictionary.executor&quot;: &quot;Run&quot;,
-    &quot;Python.FirstDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hangman-code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.If-Else-Condition.executor&quot;: &quot;Run&quot;,
-    &quot;Python.List.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Multiplications.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Operators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pay_Bill.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Pizza-order.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Puzzle-game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Puzzle_game_easy-code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Rock_Paper_scissor.executor&quot;: &quot;Run&quot;,
-    &quot;Python.StringDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.child-inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loops.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.oops.executor&quot;: &quot;Run&quot;,
-    &quot;Python.randome_code.executor&quot;: &quot;Run&quot;,
-    &quot;Python.readWrite.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tuplee.executor&quot;: &quot;Run&quot;,
-    &quot;Python.while-loop.executor&quot;: &quot;Run&quot;,
-    &quot;Python.write.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Faisal Kazi/PycharmProjects/PythonProject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Calculator.executor": "Run",
+    "Python.Dictionary.executor": "Run",
+    "Python.FirstDemo.executor": "Run",
+    "Python.Hangman-code.executor": "Run",
+    "Python.If-Else-Condition.executor": "Run",
+    "Python.List.executor": "Run",
+    "Python.Multiplications.executor": "Run",
+    "Python.Operators.executor": "Run",
+    "Python.Pay_Bill.executor": "Run",
+    "Python.Pizza-order.executor": "Run",
+    "Python.Puzzle-game.executor": "Run",
+    "Python.Puzzle_game_easy-code.executor": "Run",
+    "Python.Rock_Paper_scissor.executor": "Run",
+    "Python.StringDemo.executor": "Run",
+    "Python.Tuple.executor": "Run",
+    "Python.child-inheritance.executor": "Run",
+    "Python.function_input.executor": "Run",
+    "Python.functions.executor": "Run",
+    "Python.loop.executor": "Run",
+    "Python.loops.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.oops.executor": "Run",
+    "Python.randome_code.executor": "Run",
+    "Python.readWrite.executor": "Run",
+    "Python.tuplee.executor": "Run",
+    "Python.while-loop.executor": "Run",
+    "Python.write.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Faisal Kazi/PycharmProjects/PythonProject",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonProject" />

@@ -28,7 +28,10 @@ print(operators["*"](4, 8))
 # select_operators = input("Select the operation you want to perform (a choice of '+', '-', '*' or '/')\n")
 # user_input2 = float(input("Your second number\n"))
 
+result = 0
+
 def mathematical_operation():
+    global result
     user_input = float(input("Your first number\n"))
     print("Select from the below operators: ")
     for symbol in operators:
@@ -37,28 +40,58 @@ def mathematical_operation():
     user_input2 = float(input("Your second number\n"))
 
     if select_operators == "+":
-        print(round(operators["+"](user_input, user_input2), 2))
+        result = round(operators["+"](user_input, user_input2), 2)
+        print(f"{user_input} {select_operators} {user_input2} = {result}")
     elif select_operators == "-":
-        print(round(operators["-"](user_input, user_input2), 2))
+        result = round(operators["-"](user_input, user_input2), 2)
+        print(f"{user_input} {select_operators} {user_input2} = {result}")
     elif select_operators == "*":
-        print(round(operators["*"](user_input, user_input2), 2))
+        result = round(operators["*"](user_input, user_input2), 2)
+        print(f"{user_input} {select_operators} {user_input2} = {result}")
     elif select_operators == "/":
-        print(round(operators["/"](user_input, user_input2), 2))
+        result = round(operators["/"](user_input, user_input2), 2)
+        print(f"{user_input} {select_operators} {user_input2} = {result}")
     else:
         print("Invalid operator. Please try again")
         mathematical_operation()
+    return result
+
+def continue_operations():
+    global result
+    print("Select from the below operators: ")
+    for symbol in operators:
+        print(symbol)
+    select_operators = input("Select the operation you want to perform\n")
+    new_input = float(input("Your new number\n"))
+    if select_operators == "+":
+        result = round(operators["+"](result, new_input))
+        print(f"{result} {select_operators} {new_input} = {result}")
+    elif select_operators == "-":
+        result = round(operators["-"](result, new_input))
+        print(f"{result} {select_operators} {new_input} = {result}")
+    elif select_operators == "*":
+        result = round(operators["*"](result, new_input))
+        print(f"{result} {select_operators} {new_input} = {result}")
+    elif select_operators == "/":
+        result = round(operators["/"](result, new_input))
+        print(f"{result} {select_operators} {new_input} = {result}")
+    return result
+
+
 
 mathematical_operation()
 
 # continue_working = input("You want to continue with calculator. Press 'yes' or 'no'".lower() )
 
 while True:
-    continue_working = input("You want to continue with calculator. Press 'yes' or 'no'\n".lower())
+    continue_working = input("You want to continue with calculator. Press 'yes' or 'no' and 'Exit' to terminate the calculator session\n".lower())
 
     if continue_working == "yes":
-        mathematical_operation()
+        continue_operations()
     elif continue_working == "no":
-        print("Thank you for using the Calculator".title())
+        mathematical_operation()
+    elif continue_working == "exit":
+        print("Thank you for using the calculator. Bye Bye!")
         break
     else:
         print("Invalid entry")
